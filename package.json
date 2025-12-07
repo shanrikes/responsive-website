@@ -1,0 +1,16 @@
+{
+  "name": "shan_website",
+  "version": "1.0.0",
+  "description": "responsive website",
+  "license": "ISC",
+  "author": "Shantanu Raikwar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass  -w scss/ -o dist/css/ --reccursive"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.94.2"
+  }
+}
