@@ -6,12 +6,15 @@
   "author": "Shantanu Raikwar",
   "type": "commonjs",
   "main": "index.js",
+  "homepage": "https://sharikes.github.io/responsive-website",
   "scripts": {
-    "sass": "node-sass  -w scss/ -o dist/css/ --reccursive"
+    "sass": "node-sass  -w scss/ -o dist/css/ --reccursive",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "node-sass": "^9.0.0",
     "sass": "^1.94.2"
-  },
-  "devDependencies": {}
+  }
 }
